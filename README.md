@@ -32,67 +32,67 @@ Existe bash, zsh, fish
 Print working directory
 
 ```bash
-  pwd
+pwd
 ```
 
 Make directory
 
 ```bash
-  mkdir name_folder
+mkdir name_folder
 ```
 
 Change directory
 
 ```bash
-  cd name_directory, cd ../
+cd name_directory, cd ../
 ```
 
 Clear screen
 
 ```bash
-  clear
+clear
 ```
 
 Ingresar a la raiz del sistema operativo
 
 ```bash
-  cd /
+cd /
 ```
 
 Ingresar al home
 
 ```bash
-  cd ~
+cd ~
 ```
 
 Crear archivo
 
 ```bash
-  touch hello.txt
+touch hello.txt
 ```
 
 Abrir el navegador de archivos
 
 ```bash
-  open .
+open .
 ```
 
 Mostrar el contenido
 
 ```bash
-  cat hello.txt
+cat hello.txt
 ```
 
 Concatenar unir cadenas de texto
 
 ```bash
-  cat hello.txt leeme.txt
+cat hello.txt leeme.txt
 ```
 
 Mover un archivo
 
 ```bash
-  mv leeme.txt ./introduccion
+mv leeme.txt ./introduccion
 ```
 
 Copiar un archivo
@@ -104,119 +104,119 @@ Copiar un archivo
 Renombrar un archivo
 
 ```bash
-  mv leeme2.txt leeme_backup.txt
+mv leeme2.txt leeme_backup.txt
 ```
 
 Copiar una carpeta recursivamente
 
 ```bash
-  cp -r curso_terminal/ curso_terminal_backup
+cp -r curso_terminal/ curso_terminal_backup
 ```
 
 Remove no lo envia a un trash
 
 ```bash
-  rm leeme_backup.txt
+rm leeme_backup.txt
 ```
 
 Eliminar recursivamente
 
 ```bash
-  rm -r introduccion
+rm -r introduccion
 ```
 
 Crear multiples carpetas, -p (parent)
 
 ```bash
-  mkdir -p a/b/c
+mkdir -p a/b/c
 ```
 
 Listar carpetas
 
 ```bash
-  ls a
+ls a
 ```
 
 ```bash
-  ls a/b
+ls a/b
 ```
 
 Crear multiples carpetas, -p (parent) -v (verbose) => muestra la lista de elementos que esta creando
 
 ```bash
-  mkdir -p -v a/b/c
+mkdir -p -v a/b/c
 ```
 
 ```bash
-  mkdir -pv a/b/c
+mkdir -pv a/b/c
 ```
 
 Crear multiples carpetas, para el caso de algunas distribuciones de linux puede funcionar
 
 ```bash
-  mkdir --parents --verbose a/b/c
+mkdir --parents --verbose a/b/c
 ```
 
 Mostrar mas informacion acerca de un comando
 
 ```bash
-  man mkdir
+man mkdir
 ```
 
 Crear una carpeta con espacios
 
 ```bash
-  mkdir "otra carpeta"
+mkdir "otra carpeta"
 ```
 
 ```bash
-  mkdir 'otra carpeta 2'
+mkdir 'otra carpeta 2'
 ```
 
 ```bash
-  mkdir otra\ carpeta\ 3
+mkdir otra\ carpeta\ 3
 ```
 
 Crear multiples carpetas
 
 ```bash
-  mkdir "otra carpeta 4" ultima\ carpeta
+mkdir "otra carpeta 4" ultima\ carpeta
 ```
 
 Crear proyecto de react
 
 ```bash
-  npx create-react-app my_proyecto_de_prueba
+npx create-react-app my_proyecto_de_prueba
 ```
 
 Instalar yarn
 
 ```bash
-  brew install yarn
+brew install yarn
 ```
 
 Instalar express-generator
 
 ```bash
-  npm i -g express-generator
+npm i -g express-generator
 ```
 
 Ver ayuda del comando
 
 ```bash
-  express --help o express -h
+express --help o express -h
 ```
 
 Crear un proyecto express
 
 ```bash
-  express --view hbs my_proyecto_de_express
+express --view hbs my_proyecto_de_express
 ```
 
 Correr el proyecto
 
 ```bash
-  DEBUG=my-proyecto-express:* npm start
+DEBUG=my-proyecto-express:* npm start
 ```
 
 Guardar la salida de un comando en un archivo .txt
