@@ -1,5 +1,5 @@
 
-## Que es es una shell
+## Que es una shell
 
 Es el programa (app) que procesa los comandos de texto y devuelva un resultado.
 
